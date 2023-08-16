@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+    background: linear-gradient(50deg, rgba(18, 19, 20, 0.673) 0%, rgb(33, 35, 34) 35%, #333536 100%);
+}
+h1{
+    color:aliceblue;
+    font-size: 50px;
+    text-align: center;
+    background-color: blue;
+    background: linear-gradient(50deg, rgba(205, 214, 222, 0.673) 0%, rgb(234, 112, 12) 35%, #c71414 100%);
+    padding: 20px;
+    transition: 1s;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 50px;
+     font-family: 'Monoton', cursive;
+     cursor: pointer;
+}
+h1:hover{
+    transform: scale(0.8);      
+}
+.first{
+    color: blanchedalmond;
+    font-size: 33px;
+    font-family: 'Rye', cursive;  
+}
+.second{
+    text-align: center;
+    font-size: 23px;
+    color: blanchedalmond;
+    font-family: 'Rye', cursive;  
+}
+.third{
+    text-align: center;
+    font-size: 23px;
+    color: blanchedalmond;
+    font-family: 'Rye', cursive;   
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.logo{
+   float: left;
+}
+
